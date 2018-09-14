@@ -34,3 +34,21 @@ C:\Users\jerll\source\repos\Virtual Tape Player\Tape PLayer\obj\Debug\Tape PLaye
 C:\Users\jerll\source\repos\Virtual Tape Player\Tape PLayer\obj\Debug\Tape PLayer.csproj.CoreCompileInputs.cache
 C:\Users\jerll\source\repos\Virtual Tape Player\Tape PLayer\obj\Debug\Tape Player.exe
 C:\Users\jerll\source\repos\Virtual Tape Player\Tape PLayer\obj\Debug\Tape Player.pdb
+C:\Users\jerll\source\repos\Virtual Tape Player\Virtual Tape Player\Tape PLayer\bin\Debug\Tape Player.exe
+C:\Users\jerll\source\repos\Virtual Tape Player\Virtual Tape Player\Tape PLayer\bin\Debug\Tape Player.pdb
+C:\Users\jerll\source\repos\Virtual Tape Player\Virtual Tape Player\Tape PLayer\bin\Debug\Interop.AXVLC.dll
+C:\Users\jerll\source\repos\Virtual Tape Player\Virtual Tape Player\Tape PLayer\bin\Debug\Interop.WMPLib.dll
+C:\Users\jerll\source\repos\Virtual Tape Player\Virtual Tape Player\Tape PLayer\bin\Debug\AxInterop.AXVLC.dll
+C:\Users\jerll\source\repos\Virtual Tape Player\Virtual Tape Player\Tape PLayer\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\jerll\source\repos\Virtual Tape Player\Virtual Tape Player\Tape PLayer\obj\Debug\Tape PLayer.csprojResolveAssemblyReference.cache
+C:\Users\jerll\source\repos\Virtual Tape Player\Virtual Tape Player\Tape PLayer\obj\Debug\Interop.AXVLC.dll
+C:\Users\jerll\source\repos\Virtual Tape Player\Virtual Tape Player\Tape PLayer\obj\Debug\Interop.WMPLib.dll
+C:\Users\jerll\source\repos\Virtual Tape Player\Virtual Tape Player\Tape PLayer\obj\Debug\AxInterop.AXVLC.dll
+C:\Users\jerll\source\repos\Virtual Tape Player\Virtual Tape Player\Tape PLayer\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\jerll\source\repos\Virtual Tape Player\Virtual Tape Player\Tape PLayer\obj\Debug\Tape PLayer.csproj.ResolveComReference.cache
+C:\Users\jerll\source\repos\Virtual Tape Player\Virtual Tape Player\Tape PLayer\obj\Debug\Tape_PLayer.Form1.resources
+C:\Users\jerll\source\repos\Virtual Tape Player\Virtual Tape Player\Tape PLayer\obj\Debug\Tape_Player.Properties.Resources.resources
+C:\Users\jerll\source\repos\Virtual Tape Player\Virtual Tape Player\Tape PLayer\obj\Debug\Tape PLayer.csproj.GenerateResource.Cache
+C:\Users\jerll\source\repos\Virtual Tape Player\Virtual Tape Player\Tape PLayer\obj\Debug\Tape PLayer.csproj.CoreCompileInputs.cache
+C:\Users\jerll\source\repos\Virtual Tape Player\Virtual Tape Player\Tape PLayer\obj\Debug\Tape Player.exe
+C:\Users\jerll\source\repos\Virtual Tape Player\Virtual Tape Player\Tape PLayer\obj\Debug\Tape Player.pdb

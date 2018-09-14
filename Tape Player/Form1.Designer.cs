@@ -33,6 +33,8 @@
             this.File_Dialog = new System.Windows.Forms.OpenFileDialog();
             this.label1 = new System.Windows.Forms.Label();
             this.Player = new AxWMPLib.AxWindowsMediaPlayer();
+            this.Play_Button = new System.Windows.Forms.Button();
+            this.Pause_Button = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Player)).BeginInit();
             this.SuspendLayout();
             // 
@@ -65,14 +67,37 @@
             this.Player.Location = new System.Drawing.Point(120, 12);
             this.Player.Name = "Player";
             this.Player.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Player.OcxState")));
-            this.Player.Size = new System.Drawing.Size(226, 111);
+            this.Player.Size = new System.Drawing.Size(226, 122);
             this.Player.TabIndex = 2;
+            this.Player.Visible = false;
+            // 
+            // Play_Button
+            // 
+            this.Play_Button.Location = new System.Drawing.Point(131, 176);
+            this.Play_Button.Name = "Play_Button";
+            this.Play_Button.Size = new System.Drawing.Size(113, 73);
+            this.Play_Button.TabIndex = 3;
+            this.Play_Button.Text = "PLAY";
+            this.Play_Button.UseVisualStyleBackColor = true;
+            this.Play_Button.Click += new System.EventHandler(this.Play_Button_Click);
+            // 
+            // Pause_Button
+            // 
+            this.Pause_Button.Location = new System.Drawing.Point(250, 176);
+            this.Pause_Button.Name = "Pause_Button";
+            this.Pause_Button.Size = new System.Drawing.Size(113, 73);
+            this.Pause_Button.TabIndex = 4;
+            this.Pause_Button.Text = "Pause";
+            this.Pause_Button.UseVisualStyleBackColor = true;
+            this.Pause_Button.Click += new System.EventHandler(this.Pause_Button_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(542, 261);
+            this.Controls.Add(this.Pause_Button);
+            this.Controls.Add(this.Play_Button);
             this.Controls.Add(this.Player);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Load_File);
@@ -90,6 +115,8 @@
         private System.Windows.Forms.OpenFileDialog File_Dialog;
         private System.Windows.Forms.Label label1;
         private AxWMPLib.AxWindowsMediaPlayer Player;
+        private System.Windows.Forms.Button Play_Button;
+        private System.Windows.Forms.Button Pause_Button;
     }
 }
 
