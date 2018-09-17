@@ -40,7 +40,7 @@
             // 
             // Load_File
             // 
-            this.Load_File.Location = new System.Drawing.Point(12, 176);
+            this.Load_File.Location = new System.Drawing.Point(27, 311);
             this.Load_File.Name = "Load_File";
             this.Load_File.Size = new System.Drawing.Size(113, 73);
             this.Load_File.TabIndex = 0;
@@ -73,9 +73,11 @@
             // 
             // Play_Button
             // 
-            this.Play_Button.Location = new System.Drawing.Point(131, 176);
+            this.Play_Button.BackgroundImage = global::Tape_Player.Properties.Resources.PlayButton;
+            this.Play_Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Play_Button.Location = new System.Drawing.Point(173, 311);
             this.Play_Button.Name = "Play_Button";
-            this.Play_Button.Size = new System.Drawing.Size(113, 73);
+            this.Play_Button.Size = new System.Drawing.Size(100, 73);
             this.Play_Button.TabIndex = 3;
             this.Play_Button.Text = "PLAY";
             this.Play_Button.UseVisualStyleBackColor = true;
@@ -83,11 +85,12 @@
             // 
             // Pause_Button
             // 
-            this.Pause_Button.Location = new System.Drawing.Point(250, 176);
+            this.Pause_Button.BackgroundImage = global::Tape_Player.Properties.Resources.PauseButton;
+            this.Pause_Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Pause_Button.Location = new System.Drawing.Point(325, 311);
             this.Pause_Button.Name = "Pause_Button";
-            this.Pause_Button.Size = new System.Drawing.Size(113, 73);
+            this.Pause_Button.Size = new System.Drawing.Size(107, 73);
             this.Pause_Button.TabIndex = 4;
-            this.Pause_Button.Text = "Pause";
             this.Pause_Button.UseVisualStyleBackColor = true;
             this.Pause_Button.Click += new System.EventHandler(this.Pause_Button_Click);
             // 
@@ -95,7 +98,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(542, 261);
+            this.BackgroundImage = global::Tape_Player.Properties.Resources.brushedframe4;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(542, 410);
             this.Controls.Add(this.Pause_Button);
             this.Controls.Add(this.Play_Button);
             this.Controls.Add(this.Player);
